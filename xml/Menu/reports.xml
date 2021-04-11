@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/ListeElectorale</path>
+    <page_callback>CRM_Reports_Page_ListeElectorale</page_callback>
+    <title>ListeElectorale</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/ListeVisiteursPersonnesAges</path>
+    <page_callback>CRM_Reports_Page_ListeVisiteursPersonnesAges</page_callback>
+    <title>ListeVisiteursPersonnesAges</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/ListeAnniversaireJeunesse</path>
+    <page_callback>CRM_Reports_Page_ListeAnniversaireJeunesse</page_callback>
+    <title>ListeAnniversaireJeunesse</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/configuration-des-rapports</path>
+    <page_callback>CRM_Reports_Page_ConfigurationRapports</page_callback>
+    <title>ConfigurationRapports</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
