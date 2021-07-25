@@ -9,7 +9,7 @@ class CRM_Reports_Form_Report_ListesDesGroupes extends CRM_Report_Form {
 
   protected $_summary = NULL;
 
-//  protected $_customGroupExtends = array('Membership');
+  protected $_customGroupExtends = array('Membership');
   protected $_customGroupGroupBy = FALSE;
 
   function __construct() {
